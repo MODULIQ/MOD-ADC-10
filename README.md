@@ -1,2 +1,2 @@
-# ADC_4CHA_16B
-precise +/- 10V ADC
+# MOD-ADC-10
+precise +/- 10V 8 channel 16biy ADC
