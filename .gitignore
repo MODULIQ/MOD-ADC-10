@@ -1,4 +1,4 @@
-# --- MODULIQ Altium ignore rules ---
+# --- MODULIQ managed ignore rules ---
 
 # Altium generated directories
 History/
@@ -8,11 +8,23 @@ Project Outputs for */
 Outputs/
 Generated/
 
-# Altium generated/transient files
+# Altium generated / transient files
 *.PrjPcbStructure
 *.PrjPCBStructure
 *.PcbDocPreview
 *.SchDocPreview
+*.Harness
+*.IntLib
+
+# Generated reports
+*.PCBDOC.htm
+*.PcbDoc.htm
+*.drc
+Design Rule Check - *.html
+
+# Local archives / snapshots
+*.7z
+*.zip
 
 # Backups / temporary files
 *.bak
